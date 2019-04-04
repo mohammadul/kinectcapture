@@ -14,11 +14,11 @@ d) gtkglext
 e) gl, glu
 f) code-blocks.
 
-Precompiled Installers are available as [Windows Installer (32bit)](http://mohammadulhaque.alotspace.com/download.php?id=56285) and [Debian Installer (32bit, unverified)](http://mohammadulhaque.alotspace.com/download.php?id=56286).
+Precompiled Installers are available as [Windows Installer (32bit)](http://www.mohammadulhaque.in/download.php?id=56285) and [Debian Installer (32bit, unverified)](http://www.mohammadulhaque.in/download.php?id=56286).
 
-Precompiled Installer for version 0.4.0 (Qt version) is available as [Windows Installer (32bit)](http://mohammadulhaque.alotspace.com/download.php?id=56281).
+Precompiled Installer for version 0.4.0 (Qt version) is available as [Windows Installer (32bit)](http://www.mohammadulhaque.in/download.php?id=56281).
 
-**Precompiled Installers for latest version 0.5.0 (Qt version with turn-table motor serial communication) are available as [Windows Installer (32bit)](http://mohammadulhaque.alotspace.com/download.php?id=56282), [Debian Installer (32bit, unverified)](http://mohammadulhaque.alotspace.com/download.php?id=56283) and [Debian Installer (64bit, unverified)](http://mohammadulhaque.alotspace.com/download.php?id=56284).**
+**Precompiled Installers for latest version 0.5.0 (Qt version with turn-table motor serial communication) are available as [Windows Installer (32bit)](http://www.mohammadulhaque.in/download.php?id=56282), [Debian Installer (32bit, unverified)](http://www.mohammadulhaque.in/download.php?id=56283) and [Debian Installer (64bit, unverified)](http://www.mohammadulhaque.in/download.php?id=56284).**
 
 
 --------------
