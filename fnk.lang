@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language id="fnk" _name="FNK" version="1.0" _section="Sources">
+
+<line-comment _name="Comment" style="Comment">
+    <start-regex>%</start-regex>
+</line-comment>
+
+<pattern-item _name="Number" style="Decimal">
+    <regex>0|[\+-]?[1-9][0-9]*</regex>
+</pattern-item>
+
+<keyword-list _name = "Command" style = "Keyword" case-sensitive = "TRUE">
+    <keyword>START</keyword>
+    <keyword>STOP</keyword>
+    <keyword>PAUSE</keyword>
+    <keyword>PROJECTOR</keyword>
+    <keyword>BRIGHTNESS</keyword>
+    <keyword>SWITCH</keyword>
+    <keyword>LOOP</keyword>
+    <keyword>END</keyword>
+    <keyword>MODE</keyword>
+    <keyword>CAPTURE</keyword>
+</keyword-list>
+
+</language>

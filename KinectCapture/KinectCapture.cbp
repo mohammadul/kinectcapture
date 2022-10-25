@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="KinectCapture" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/KinectCapture" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-pedantic" />
+					<Add option="-Wall" />
+					<Add option="-std=c99" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/KinectCapture" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="`pkg-config gtk+-2.0 --cflags`" />
+			<Add option="`pkg-config --cflags gtkglext-1.0`" />
+		</Compiler>
+		<Linker>
+			<Add option="`pkg-config gtk+-2.0 --libs`" />
+			<Add option="`pkg-config --libs gtkglext-1.0`" />
+			<Add library="lib/external/libfreenect.a" />
+			<Add library="lib/external/libfreenect_sync.a" />
+			<Add library="libusb-1.0.so" />
+		</Linker>
+		<Unit filename="include/external/cameras.h" />
+		<Unit filename="include/commontypes.h" />
+		<Unit filename="include/datastructs.h" />
+		<Unit filename="include/external/libfreenect-audio.h" />
+		<Unit filename="include/external/libfreenect-registration.h" />
+		<Unit filename="include/external/libfreenect.h" />
+		<Unit filename="include/main.h" />
+		<Unit filename="include/program.h" />
+		<Unit filename="include/strfuncs.h" />
+		<Unit filename="resources/KinectCapture.ico" />
+		<Unit filename="resources/resources.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="src/datastructs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/program.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/strfuncs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
